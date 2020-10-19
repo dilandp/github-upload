@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	background-color: seagreen;
+}
+
+div {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 5vw;
+	
+	letter-spacing: 1px;
+}
+
+@keyframes moveit {
+	from {color: white;}
+	to {color: seagreen}
+}
